@@ -1,428 +1,439 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>AutoUpdater</name>
     <message>
         <source>No ssl configuration!
 OpenSSL might not be installed.</source>
-        <translation>SSL konnte nicht konfiguriert werden!
-Möglicherweise ist OpenSSL nicht installiert.</translation>
+        <translation>Pas de configuration SSL !
+OpenSSL ne semble pas installé.</translation>
     </message>
     <message>
         <source>Failed to save the Birdtray installer:
 </source>
-        <translation>Fehler beim Speichern der Birdtray-Installationsdatei:
+        <translation>Impossible de sauvegarder le programme d&apos;installation de Birdtray :
 </translation>
     </message>
     <message>
         <source>Failed to download the Birdtray installer:
 </source>
-        <translation>Fehler beim Herunterladen der Birdtray-Installationsdatei:
+        <translation>Impossible de télécharger le programme d&apos;installation de Birdtray :
 </translation>
     </message>
     <message>
         <source>Installer download failed</source>
-        <translation>Herunterladen der Installationsdatei ist fehlgeschlagen</translation>
+        <translation>Le téléchargement du programme d&apos;installation a échoué</translation>
     </message>
     <message>
         <source>Update failed</source>
-        <translation>Aktualisierung fehlgeschlagen</translation>
+        <translation>Échec de la mise à jour</translation>
     </message>
     <message>
         <source>Failed to start the Birdtray installer.</source>
-        <translation>Das Birdtray-Installationsprogramm konnte nicht gestartet werden.</translation>
+        <translation>Le lancement du programme d&apos;installation a échoué.</translation>
     </message>
 </context>
 <context>
     <name>BirdtrayApp</name>
     <message>
+        <source>A free system tray notification for new mail for Thunderbird.</source>
+        <translation>Logiciel libre de notification de nouveaux mails pour Thunderbird.</translation>
+    </message>
+    <message>
         <source>Display the contents of the given mork database.</source>
-        <translation>Den Inhalt der Mork-Datenbank anzeigen.</translation>
+        <translation>Affiche le contenu de la base de données mork.</translation>
     </message>
     <message>
         <source>databaseFile</source>
-        <translation>datenbankDatei</translation>
+        <translation>Fichier de base de données</translation>
     </message>
     <message>
         <source>Decode an IMAP Utf7 string.</source>
-        <translation>Eine IMAP-UTF-7-Zeichenkette dekodieren.</translation>
+        <translation>Décoder une chaîne IMAP Utf7.</translation>
     </message>
     <message>
         <source>string</source>
-        <translation>zeichenkette</translation>
+        <translation>chaîne</translation>
     </message>
     <message>
         <source>Show the settings.</source>
-        <translation>Die Einstellungen öffnen.</translation>
+        <translation>Affichier les paramètres.</translation>
     </message>
     <message>
         <source>Reset the settings to the defaults.</source>
-        <translation>Die Einstellungen auf die Standardwerte zurücksetzen.</translation>
+        <translation>Réinitialiser les paramètres.</translation>
     </message>
     <message>
         <source>Toggle the Thunderbird window.</source>
-        <translation>Das Thunderbird-Fenster umschalten.</translation>
+        <translation>Basculer sur la fenêtre Thunderbird.</translation>
     </message>
     <message>
         <source>Show the Thunderbird window.</source>
-        <translation>Das Thunderbird-Fenster anzeigen.</translation>
+        <translation>Afficher la fenêtre Thunderbird.</translation>
     </message>
     <message>
         <source>Hide the Thunderbird window.</source>
-        <translation>Das Thunderbird-Fenster ausblenden.</translation>
+        <translation>Cacher la fenêtre Thunderbird.</translation>
     </message>
     <message>
         <source>Write log to a file.</source>
-        <translation>Schreibe Birdtrays Protokoll in eine Datei.</translation>
-    </message>
-    <message>
-        <source>A free system tray notification for new mail for Thunderbird.</source>
-        <translation>Ein freies Systemleistenbenachrichtigungsprogramm für neue Mails von Thunderbird.</translation>
+        <translation>Écrire le journal dans un fichier.</translation>
     </message>
     <message>
         <source>file</source>
-        <translation>datei</translation>
+        <translation>fichier</translation>
     </message>
     <message>
         <source>Sorry, the system tray cannot be controlled by this add-on on your operating system.</source>
-        <translation>Die Systemleiste kann leider auf Ihrem System nicht durch dieses Add-on gesteuert werden.</translation>
+        <translation>Désolé, cette extension ne peut pas contrôler la barre de notification sur ce système d&apos;exploitation.</translation>
     </message>
 </context>
 <context>
     <name>DialogAddEditNewEmail</name>
     <message>
         <source>&quot;New Email&quot; Entry</source>
-        <translation>&quot;Neue E-Mail&quot;-Eintrag</translation>
+        <translation>Entrée de &quot;Nouveau mail&quot;</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation>Name:</translation>
+        <translation>Nom :</translation>
     </message>
     <message>
         <source>(Optional) Prefilled fields</source>
-        <translation>(Optional) Vorausgefüllte Felder</translation>
+        <translation>(Facultatif) Champs préremplis</translation>
     </message>
     <message>
         <source>Email subject:</source>
-        <translation>Betreff:</translation>
+        <translation>Objet du mail :</translation>
     </message>
     <message>
         <source>Email message text:</source>
-        <translation>E-Mail-Text:</translation>
+        <translation>Texte du mail :</translation>
     </message>
     <message>
         <source>Email recipient:</source>
-        <translation>Empfänger:</translation>
+        <translation>Destinataire du mail :</translation>
     </message>
     <message>
         <source>No name specified</source>
-        <translation>Kein Name angegeben</translation>
+        <translation>Aucun nom spécifié</translation>
     </message>
     <message>
         <source>The name cannot be empty.</source>
-        <translation>Der Name darf nicht leer sein.</translation>
+        <translation>Le nom ne peut pas être vide.</translation>
     </message>
 </context>
 <context>
     <name>DialogLogOutput</name>
     <message>
         <source>Debug log viewer</source>
-        <translation>Protokollanzeige</translation>
+        <translation>Lecteur des journaux de debug</translation>
     </message>
 </context>
 <context>
     <name>DialogSettings</name>
     <message>
         <source>Birdtray Settings</source>
-        <translation>Birdtray-Einstellungen</translation>
+        <translation>PRéférences de Birdtray</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Général</translation>
     </message>
     <message>
         <source>New Mail Notification</source>
-        <translation>Benachrichtigungen über neue E-Mails</translation>
+        <translation>Notification de nouveaux messages</translation>
     </message>
     <message>
         <source>Show unread count</source>
-        <translation>Die Anzahl ungelesener E-Mails anzeigen</translation>
+        <translation>Afficher le nombre de mails non lus</translation>
     </message>
     <message>
         <source>Different icon when unread:</source>
-        <translation>Anderes Symbol bei ungelesenen E-Mails:</translation>
+        <translation>Icône différente si mails non lus :</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation>Aus</translation>
+        <translation>Désactivé</translation>
     </message>
     <message>
         <source>Fastest</source>
-        <translation>Schnellste</translation>
+        <translation>Plus rapide</translation>
     </message>
     <message>
         <source>Icon (Ctrl-click to reset):</source>
-        <translation>Symbol (Strg-Klick zum Zurücksetzen):</translation>
+        <translation>Icône (Ctrl-click pour réinitialiser) :</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This notification color will be used when more than one monitored account has unread emails.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Diese Benachrichtigungsfarbe wird benutzt, wenn es ungelesene E-Mails in mehreren überwachten Konten gibt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&gt;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Couleur utilisée lorsqu&apos;il y a des mails non lus sur plusieurs comptes surveillés.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Multiple notification color:</source>
-        <translation>Farbe bei mehreren Benachrichtigungen:</translation>
+        <translation>Couleur de notifications multiples :</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This changes the font thickness, i.e. makes the font bold.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pour changer la finesse de la police, c.à.d. mettre la police en gras.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Blinking speed:</source>
-        <translation>Blinkgeschwindigkeit:</translation>
+        <translation>Vitesse de clignotement :</translation>
     </message>
     <message>
         <source>Font style:</source>
-        <translation>Schriftstil:</translation>
+        <translation>Style de police :</translation>
     </message>
     <message>
         <source>Bold:</source>
-        <translation>Fett:</translation>
+        <translation>Gras :</translation>
     </message>
     <message>
         <source>Notification border color:</source>
-        <translation>Benachrichtigungs-Randfarbe:</translation>
+        <translation>Couleur de la bordure de la notification :</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Breite:</translation>
+        <translation>Largeur :</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>Aucun</translation>
     </message>
     <message>
         <source>Monitoring</source>
-        <translation>Überwachung</translation>
+        <translation>Surveillance</translation>
     </message>
     <message>
         <source>Accounts to monitor</source>
-        <translation>Überwachte Konten</translation>
+        <translation>Comptes à surveiller</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <translation>Ajouter</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Supprimer</translation>
     </message>
     <message>
         <source>Allow ignoring the current unread email counter</source>
-        <translation>Das Ignorieren der momentanen ungelesenen E-Mails erlauben</translation>
+        <translation>Permettre d&apos;ignorer le nombre de mails non lus actuel</translation>
     </message>
     <message>
         <source>Hiding</source>
-        <translation>Verstecken</translation>
+        <translation>Cacher</translation>
     </message>
     <message>
         <source>Launching and Hiding</source>
-        <translation>Starten und verstecken</translation>
+        <translation>LAncer et cacher</translation>
     </message>
     <message>
         <source>Start Thunderbird when Birdtray starts</source>
-        <translation>Wenn Birdtray startet, Thunderbird starten</translation>
+        <translation>LAncer Thunderbird au démarrage de Birdtray</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When both Thunderbird and Birdtray are set to start with the operating system, this usually results in two copies of Thunderbird being launched. Here you can add a delay before Thunderbird is launched, to prevent this.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wenn sowohl Thunderbird als auch Birdtray beim Hochfahren gestartet werden, führt das meist dazu, dass zwei Thunderbird-Instanzen gestartet werden. Hiermit kann eine Verzögerung vor dem Start von Thunderbird eingerichtet werden, um das zu verhindern.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Lorsque Thunderbird et Birdtray sont paramétrés pour démarrer automatiquement, il arrive que Thunderbird soit lancé deux fois. Vous pouvez ajouter ici un délai avant le lancement de Thunderbird, pour l&apos;éviter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source> second delay</source>
-        <translation> Sekunden Verzögerung</translation>
+        <translation> deuxième délai</translation>
     </message>
     <message>
         <source>with a </source>
-        <translation>mit </translation>
+        <translation>avec un </translation>
     </message>
     <message>
         <source>and hide it</source>
-        <translation>und ausblenden</translation>
+        <translation>et le cacher</translation>
     </message>
     <message>
         <source>Terminate Thunderbird when quitting Birdtray</source>
-        <translation>Thunderbird beenden, wenn Birdtray geschlossen wird</translation>
+        <translation>Fermer Thunderbird à l&apos;arrêt de Birdtray</translation>
     </message>
     <message>
         <source>Hide/show Thunderbird window when clicking on tray icon</source>
-        <translation>Das Thunderbird Fenster beim Klick auf das Systemleistensymbol ausblenden/anzeigen</translation>
+        <translation>Cacher/afficher la fenêtre Thunderbird en cliquant sur l&apos;icône de notification</translation>
     </message>
     <message>
         <source>Hide Thunderbird window when it is minimized</source>
-        <translation>Das Thunderbird-Fenster ausblenden, wenn es minimiert wird</translation>
+        <translation>Cacher le fenêtre Thunderbird réduite</translation>
     </message>
     <message>
         <source>Show red X in tray icon if Thunderbird is not running</source>
-        <translation>Ein rotes X im Systemleistensymbol anzeigen, wenn Thunderbird nicht ausgeführt wird</translation>
+        <translation>Affichier un X rouge dans le barre de notification si Thunderbird n&apos;est pas lancé</translation>
     </message>
     <message>
         <source>Restart Thunderbird if it was closed</source>
-        <translation>Thunderbird erneut starten, wenn es geschlossen wurde</translation>
+        <translation>Relancer Thunderbird s&apos;il a été fermé</translation>
     </message>
     <message>
         <source>New Email</source>
-        <translation>Neue E-Mail</translation>
+        <translation>Nouveau mail</translation>
     </message>
     <message>
         <source>Enable New Email submenu</source>
-        <translation>Das Untermenü &quot;Neue E-Mail&quot; aktvieren</translation>
+        <translation>Activer le sous-menu des nouveaux mails</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Erweitert</translation>
+        <translation>Avancé</translation>
     </message>
     <message>
         <source>Please do not change these settings unless you understand what you&apos;re doing.</source>
-        <translation>Bitte ändern Sie diese Einstellungen nur, wenn Sie wissen was Sie tun.</translation>
+        <translation>Éviter de modifier ces paramètres, à moins de savoir ce que vous faîtes.</translation>
     </message>
     <message>
         <source>Thunderbird window name pattern:</source>
-        <translation>Namensschema des Thunderbird-Fensters:</translation>
+        <translation>Modèle de nom de la fenâtre Thunderbird :</translation>
     </message>
     <message>
         <source>Minimum notification font size:</source>
-        <translation>Minimale Schriftgröße der Benachrichtigung:</translation>
+        <translation>Taille minimale de la police de notification :</translation>
     </message>
     <message>
         <source> points</source>
-        <translation> Punkte</translation>
+        <translation> points</translation>
     </message>
     <message>
         <source>When blinking, use the fade-in/fade-out transition (increases CPU use!)</source>
-        <translation>Ein- und Ausblendeanimationen beim Blinken benutzen (erhöht die CPU-Belastung!)</translation>
+        <translation>Utiliser un effet de fondu pendant le clignotement (augmente la charge CPU !)</translation>
     </message>
     <message>
         <source>Make the system tray icon</source>
-        <translation>Die Transparenz des Systemleistensymbols festlegen auf</translation>
+        <translation>Afficher d&apos;icône dans la barre de notification</translation>
+    </message>
+    <message>
+        <source>Check for new updates when Birdtray starts.</source>
+        <translation>Vérifier les mises à jour au démarrage de Birdtray.</translation>
     </message>
     <message>
         <source>Check for new updates on startup</source>
-        <translation>Beim Start auf Aktualisierungen prüfen</translation>
+        <translation>Vérifier les mises à jour au démarrage</translation>
+    </message>
+    <message>
+        <source>Check for a new Birdtray version.</source>
+        <translation>Vérifier les mises à jour de Birdtray.</translation>
     </message>
     <message>
         <source>Check now</source>
-        <translation>Jetzt suchen</translation>
+        <translation>Vérifier maintenant</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Über</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <source>Version check failed</source>
-        <translation>Versionsprüfung ist fehlgeschlagen</translation>
+        <translation>La vérification des mises à jour a échoué</translation>
     </message>
     <message>
         <source>Failed to check for a new Birdtray version:
 </source>
-        <translation>Fehler beim Überprüfen auf eine neue Birdtray-Version:
+        <translation>La vérification des mises à jour de Birdtray a échoué :
 </translation>
     </message>
     <message>
         <source>Checking...</source>
-        <translation>Überprüfung läuft…</translation>
+        <translation>Vérification...</translation>
     </message>
     <message>
         <source>Choose the new icon</source>
-        <translation>Ein neues Symbol auswählen</translation>
+        <translation>Choisissez la nouvelle icône</translation>
     </message>
     <message>
         <source>Images (*.png *.svg *.svgz)</source>
-        <translation>Bilder (*.png *.svg *.svgz)</translation>
+        <translation>Images (*.png *.svg *.svgz)</translation>
     </message>
     <message>
         <source>Invalid icon</source>
-        <translation>Ungültiges Symbol</translation>
+        <translation>Icône invalide</translation>
     </message>
     <message>
         <source>Could not load the icon from this file.</source>
-        <translation>Es konnte kein Symbol von der Datei geladen werden.</translation>
+        <translation>Impossible de récupérer l&apos;icône dans ce fichier.</translation>
     </message>
     <message>
         <source>Thunderbird command line:</source>
-        <translation>Thunderbird-Befehlszeile:</translation>
+        <translation>Ligne de commande Thunderbird :</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is the full command-line (with arguments) which will be used to start Thunderbird. Arguments are space-separated, but spaces in quotes are allowed, i.e. something like &lt;span style=&quot; font-weight:600;&quot;&gt;&amp;quot;C:\Program Files\tb.exe&amp;quot; --profile test&lt;/span&gt; will work.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dies ist die komplette Befehlszeile (mit Argumenten), welche zum Starten von Thunderbird genutzt wird. Argumente müssen mit Leerzeichen getrennt werden, allerdings sind Leerzeichen in Anführungszeichen erlaubt. Z. B.: &lt;span style=&quot; font-weight:600;&quot;&gt;&amp;quot;C:\Program Files\tb.exe&amp;quot; --profile test&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indiquez ici la commande complète (avec les arguments) à utiliser pour lancer Thunderbird. Utilisez des espaces pour séparer les arguments. Les espaces entre quotes sont autorisées. Par exemple &lt;span style=&quot; font-weight:600;&quot;&gt;&amp;quot;C:\Program Files\tb.exe&amp;quot; --profile test&lt;/span&gt; fonctionnera.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Ignore all unread email that are present when Birdtray starts. Only new emails will be taken into account by the unread counter.</source>
-        <translation>Alle ungelesenen E-Mails ignorieren, die beim Starten von Birdtray bereits vorhanden sind. Nur neue E-Mails werden bei der Berechnung der Anzahl ungelesener E-Mails beachtet.</translation>
+        <translation>Ignorer tous les mails non lus qui sont déjà présents quand Birdtray démarre. Seuls les nouveaux mails seront ajoutés au compteur de mails non lus.</translation>
     </message>
     <message>
         <source>opaque when new mail is present,</source>
-        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
-        <translation>beim Eingang neuer Mails.</translation>
+        <translation>opaque quand un nouveau mail arrive,</translation>
     </message>
     <message>
         <source>hide it if no new mail is present.</source>
-        <translation>Ausblenden, wenn es keine neuen Mails gibt.</translation>
+        <translation>cacher si aucun nouveau mail n&apos;est présent.</translation>
     </message>
     <message>
         <source>Choose one or more MSF files</source>
-        <translation>Eine oder mehrere MSF-Dateien auswählen</translation>
+        <translation>Choisissez un fichier MSF ou plus</translation>
     </message>
     <message>
         <source>Mail Index (*.msf)</source>
-        <translation>Mail-Index (*.msf)</translation>
+        <translation>Index de mails (*.msf)</translation>
     </message>
     <message>
         <source>No new updates found</source>
-        <translation>Keine neue Version gefunden</translation>
+        <translation>Pas de nouvelles mises à jour</translation>
     </message>
     <message>
         <source>Show log window</source>
-        <translation>Protokollfenster anzeigen</translation>
+        <translation>Affichier la fenêtre du journal</translation>
     </message>
     <message>
         <source>Force index file re-read every</source>
-        <translation>Das erneute Lesen der Indexdatei erzwingen. Alle</translation>
+        <translation>Forcer la lecture du fichier d&apos;index toutes les</translation>
     </message>
     <message>
         <source> seconds</source>
-        <translation> Sekunden</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this box is checked, the Birdtray icon will show the number of unread emails.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;If it is unchecked, no count will be shown, and you will only know about unread emails because of the blinking or different icon, depending on your settings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wenn diese Option aktiviert ist, wird die Anzahl der ungelesenen E-Mails im Birdtray-Symbol angezeigt.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Wenn die Option deaktiviert ist, wird keine Anzahl angezeigt. Sie werden dann, abhängig von Ihren Einstellungen, nur noch durch das blinkende oder geänderte Symbol auf neue E-Mails aufmerksam gemacht.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation> secondes</translation>
     </message>
     <message>
         <source>Translations are powered by the community:</source>
-        <translation>Die Übersetzungen werden von Freiwilligen bereitgestellt:</translation>
+        <translation>Les traductions sont supportées par la communauté :</translation>
     </message>
     <message>
         <source>Translators</source>
-        <translation>Übersetzer</translation>
+        <translation>Traducteurs</translation>
     </message>
     <message>
         <source>Active maintainers</source>
-        <translation>Aktive Übersetzer</translation>
+        <translation>Mainteneurs actifs</translation>
     </message>
     <message>
         <source>Contributors</source>
-        <translation>Mitwirkende</translation>
+        <translation>Contributeurs</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this box is checked, the Birdtray icon will show the number of unread emails.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;If it is unchecked, no count will be shown, and you will only know about unread emails because of the blinking or different icon, depending on your settings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si cette case est cochée, l&apos;icône de Birdtray affichera le nombre de mails non lus.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Sinon, aucun compte ne sera affiché, et vous ne saurez seulement qu&apos;il y a des mails non lus, grâce à l&apos;icône clignotante ou différente, selon vos paramètres.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Unread change cmd:</source>
-        <translation>Befehl bei Änderung ungelesener E-Mails:</translation>
+        <translation>Lors d&apos;un changement du nombre de non lus :</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select mail folders for watching.&lt;br/&gt;&lt;br/&gt;If the dialog doesn&apos;t show your folder, &lt;i&gt;Ctrl + Shift click&lt;/i&gt; to open a file selection dialog that allows adding any mork file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wähle E-Mail Ordner zur Überwachung aus.&lt;br/&gt;&lt;br/&gt;Wenn der Dialog Ihren E-Mail Ordner nicht anzeigt, klicken Sie &lt;i&gt;Strg + Shift&lt;/i&gt; um einen Dateiauswahlsdialog zu öffnen, mit dem jede mork-Datei hinzugefügt werden kann.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sélectionnez les répertoires de mails à surveiller.&lt;br/&gt;&lt;br/&gt;Si vous ne voyez pas votre répertoire, &lt;i&gt;Ctrl + Shift click&lt;/i&gt; ouvrirz une boîte de dialogue permettant d&apos;ajouter des fichiers mork.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Could not load the icon from this file. Try loading the icon in an image editing tool and saving it in a different format.</source>
-        <translation>Es konnte kein Symbol von der Datei geladen werden. Versuchen Sie, die Datei in einem Bildbearbeitungsprogramm zu öffnen und in einem anderen Format abzuspeichern.</translation>
+        <translation>Impossible de récupérer l&apos;icône dans ce fichier. Essayez d&apos;ouvrir l&apos;icône dans un éditeur d&apos;images et de la sauvegarder dans un autre format.</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -444,64 +455,52 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Birdtray-Version [VERSION], kompiliert am [DATE] mit Qt [QT_VERSION].&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Birdtray version [VERSION] compilé le [DATE] en utilisant Qt [QT_VERSION].&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Urheberrecht (C) 2018 von George Yunaev, &lt;/span&gt;&lt;a href=&quot;mailto:gyunaev@ulduzsoft.com&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;gyunaev@ulduzsoft.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Copyright (C) 2018 by George Yunaev, &lt;/span&gt;&lt;a href=&quot;mailto:gyunaev@ulduzsoft.com&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;gyunaev@ulduzsoft.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Birdtray ist eine FREIE SOFTWARE, welche unter der General Public License v3 lizenziert ist. Sie können Birtray also für jeden Zweck, auch für kommerzielle Zwecke, verwenden, ohne etwas zu bezahlen.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Birdtray est un LOGICIEL LIBRE, sous licence General Public License v3. Plus précisément, toute utilisation, même commerciale, est autorisée, et ce gratuitement. &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Für Hilfe, um Verbesserungen vorzuschlagen oder um Fehler zu melden nutzen Sie bitte die &lt;/span&gt;&lt;a href=&quot;https://github.com/gyunaev/birdtray&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;Github-Projektseite&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Si vous avez besoin d&apos;aide, d&apos;une fonctionnalité, ou de remonter un bug, utilisez la &lt;/span&gt;&lt;a href=&quot;https://github.com/gyunaev/birdtray&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;page Github du projet&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Diejenigen, die meine Arbeit an Birdtray wertschätzen, die ich in meiner freien Zeit mache, können mich hier unterstützen: &lt;/span&gt;&lt;a href=&quot;https://paypal.me/ulduzsoft&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;https://paypal.me/ulduzsoft&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Si vous aimez mon travail sur Birdtray, qui est développé pendant mon temps libre, vous pouvez aller ici : &lt;/span&gt;&lt;a href=&quot;https://paypal.me/ulduzsoft&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;https://paypal.me/ulduzsoft&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Vielen Dank für Ihre Unterstützung!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This changes the font thickness, i.e. makes the font bold.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Das verändert die Schriftdicke, d. h. macht die Schrift fett.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;MErci pour votre soutien !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If not empty, this command will be invoked every time the unread counter changes (including when it becomes zero). It is invoked via shell, as-is, with %NEW% replaced by the new unread count value and %OLD% replaced with the old unread count value (which may be the same as new).&lt;/p&gt;&lt;p&gt;Most users don&apos;t need this functionality and should leave it empty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sofern angegeben, wird dieser Befehl jedes mal ausgeführt, wenn sich die Anzahl ungelesener E-Mails ändert (auch bei Änderung auf null). Der Befehl wird wie angegeben vom System ausgeführt, wobei %NEW% mit der neuen und %OLD% mit der voherigen Anzahl ungelesener E-Mails ersetzt wird (beide Werte können gleich sein).&lt;/p&gt;&lt;p&gt;Die meisten Nutzer werden diese Funktionalität nicht benötigen und sollten das Feld leer lassen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Check for new updates when Birdtray starts.</source>
-        <translation>Beim Start von Birdtray nach Aktualisierungen suchen.</translation>
-    </message>
-    <message>
-        <source>Check for a new Birdtray version.</source>
-        <translation>Nach einer neuen Version von Birdtray suchen.</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si renseignée, cette commande sera lancée à chaque fois que le compteur de mails non lus change (y compris quand il atteint zéro). Est lancée dans un shell, telle quelle, et %NEW% est remplacé par le nouveau nombre de mails non lus, et %OLD% est remplacé par le précédent nombre de mails non lus (qui peut être le même).&lt;/p&gt;&lt;p&gt;La plupart des utilisateurs n&apos;a pas besoin de cette fonctionnalité et devrait laisser ce champ vide.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Support non-NETWM compliant WMs</source>
-        <translation>Unterstütze nicht NETWM konforme Fenstermanager</translation>
+        <translation>Compatibilité avec les WM non-NETWM</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your desktop manager is not fully NETWM compliant, you may need to check this checkbox so it can detect Thunderbird window and is able to minimise and hide it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ist Ihr Desktop-Manager nicht komplett NETWM konform, müssen Sie diesen Auswahlkasten gegebenenfalls aktivieren, damit Birdtray das Fenster von Thunderbird erkennen, minimieren und verstecken kann.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&gt;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si votre gestionnaire de bureau n&apos;est pas totalement compatible NETWM, vous pourriez avoir besoin de cocher cette case pour pouvoir trouver la fenêtre Thunderbird, et ainsi pouvoir la réduire et la cacher.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>At startup</source>
-        <translation>Beim Start</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When hiding Thunderbird</source>
-        <translation>Beim Verstecken von Thunderbird</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When showing Thunderbird</source>
-        <translation>Beim Anzeigen von Thunderbird</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, this option adds the &amp;quot;Ignore currently unread emails&amp;quot; action to the context menu. This action allows you to ignore the emails which are currently unread. Birdtray would then pretend there are no unread emails left, and would only show new emails over the ignored count.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;For example, if there were 10 unread emails, and you clicked on &amp;quot;Ignore&amp;quot; action, Birdtray will show no unread email indicator as long as unread email count remains at 10. Once new email is received and you have 11 total unread emails, Birdtray will show the new email count as 1.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wenn aktiviert fügt diese Option dem Kontextmenü die Aktion &quot;Ungelesene E-Mails ignorieren&quot; hinzu. Diese Aktion erlaubt das Ignorieren der momentanen ungelesenen E-Mails. Birdtray ignoriert dann alle zu dem Zeitpunkt ungelesene E-Mails und zeigt nur noch neu hinzukommende E-Mails an.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Gibt es zum Beispiel gerade 10 ungelesene E-Mails und Sie klicken auf die Aktion &quot;Ignorieren&quot;, wird Birdtray keinen Indikator für ungelesene E-Mails anzeigen, solange die Anzahl der ungelesenen E-Mails bei 10 bleibt. Sobald eine neue E-Mail empfangen wird und es somit 11 ungelesene E-Mails gibt, zeigt Birdtray eine ungelesene E-Mail an.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si activée, cette option ajoute le choix &amp;quot;Ignorer les mails actuellement non lus&amp;quot; Ce choix permet d&apos;ignorer les mails qui n&apos;ont pas encore été lus. Birdtray annoncera alors qu&apos;il ne reste aucun mail non lu, et n&apos;affichera que le nombre de mails en plus du nombre de mails ignorés.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Par exemple, s&apos;il y a 10 mails non lus, et si vous cliquez sur &amp;quot;Ignorer&amp;quot;, Birdtray n&apos;affichera rien, tant que le nombre de mails non lus restera à 10. Si vous recevez un nouveau mail, et donc que vous avez 11 mails non lus au total, Birdtray affichera 1 nouveau mail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>Log</name>
     <message>
         <source>Failed to open log file %s: %s</source>
-        <translation>Die Protokolldatei %s konnte nicht geöffnet werden: %s</translation>
+        <translation>Impossible d&apos;ouvrir le fichier journal %s : %s</translation>
     </message>
     <message>
         <source>Fatal</source>
@@ -511,58 +510,58 @@ p, li { white-space: pre-wrap; }
         <source>Fatal error: %1
 
 Log file is written into file %2</source>
-        <translation>Schwerwiegender Fehler: %1
+        <translation>Erreur fatale : %1
 
-Das Protokoll wurde in die Datei &quot;%2&quot; geschrieben</translation>
+Le journal a été écrit dans le fichier %2</translation>
     </message>
 </context>
 <context>
     <name>MailAccountDialog</name>
     <message>
-        <source>Select the directory that contains the Thunderbird profiles.</source>
-        <translation>Wählen Sie bitte das Verzeichnis aus, das die Thunderbird-Profile enthält.</translation>
-    </message>
-    <message>
-        <source>Thunderbird Profiles Directory</source>
-        <translation>Verzeichnis der Thunderbird-Profile</translation>
-    </message>
-    <message>
-        <source>Browse</source>
-        <translation>Durchsuchen</translation>
-    </message>
-    <message>
-        <source>Select Accounts</source>
-        <translation>Kontenwahl</translation>
-    </message>
-    <message>
-        <source>Select the mail accounts you want to monitor.</source>
-        <translation>Wählen Sie die E-Mail-Konten aus, die Sie überwachen wollen.</translation>
-    </message>
-    <message>
-        <source>Notification Color</source>
-        <translation>Benachrichtigungsfarbe</translation>
-    </message>
-    <message>
-        <source>If you monitor multiple folders, the default notification color is used to show the sum of all unread mails.</source>
-        <translation>Wenn mehrere Ordner überwacht werden, wird die Standard-Benachrichtigungsfarbe benutzt, um die Summe aller ungelesenen E-Mails anzuzeigen.</translation>
-    </message>
-    <message>
         <source>Choose the Thunderbird profiles path</source>
-        <translation>Das Verzeichnis der Thunderbird-Profile auswählen</translation>
+        <translation>Choisissez le répertoire des profils Thunderbird</translation>
     </message>
     <message>
         <source>No folder selected</source>
-        <translation>Kein Ordner ausgewählt</translation>
+        <translation>Aucun répertoire sélectionné</translation>
     </message>
     <message>
         <source>No mail folder was selected to monitor.
 Do you want to continue?</source>
-        <translation>Es wurde kein E-Mail-Ordner zur Überwachung ausgewählt.
-Wollen Sie fortfahren?</translation>
+        <translation>Aucun répertoire n&apos;a été sélectionné.
+Voulez-vous continuer ?</translation>
+    </message>
+    <message>
+        <source>Select Accounts</source>
+        <translation>Choisissez les comptes</translation>
+    </message>
+    <message>
+        <source>Select the directory that contains the Thunderbird profiles.</source>
+        <translation>Choisissez le répertoire contenant les profils Thunderbird.</translation>
+    </message>
+    <message>
+        <source>Thunderbird Profiles Directory</source>
+        <translation>Répertoire des profils Thunderbird</translation>
+    </message>
+    <message>
+        <source>Browse</source>
+        <translation>Parcourir</translation>
+    </message>
+    <message>
+        <source>Select the mail accounts you want to monitor.</source>
+        <translation>Choisissez les comptes mail que vous voulez surveiller.</translation>
     </message>
     <message>
         <source>Email Folder</source>
-        <translation>E-Mail-Ordner</translation>
+        <translation>Répertoire mail</translation>
+    </message>
+    <message>
+        <source>Notification Color</source>
+        <translation>Couleur de notification</translation>
+    </message>
+    <message>
+        <source>If you monitor multiple folders, the default notification color is used to show the sum of all unread mails.</source>
+        <translation>Si vous surveillez plusieurs répertoires, la couleur de notification par défaut sera utilisée pour afficher le nombre total de mails non lus.</translation>
     </message>
     <message>
         <source>%1 (Profile)</source>
@@ -571,235 +570,235 @@ Wollen Sie fortfahren?</translation>
     <message>
         <source>No mail profiles were found.
 Please make sure you selected the correct profiles directory.</source>
-        <translation>Es wurden keine E-Mail-Profile gefunden.
-Bitte stellen Sie sicher, dass Sie den richtigen Ordner mit den Profilen ausgewählt haben.</translation>
+        <translation>Aucun compte mail trouvé.
+Assurez-vous d&apos;avoir sélectionné le bon répertoire.</translation>
     </message>
 </context>
 <context>
     <name>ModelAccountTree</name>
     <message>
         <source>Account</source>
-        <translation>Konto</translation>
+        <translation>Compte</translation>
     </message>
     <message>
         <source>Notification color</source>
-        <translation>Benachrichtigungsfarbe</translation>
+        <translation>Couleur de notification</translation>
     </message>
 </context>
 <context>
     <name>ModelNewEmails</name>
     <message>
         <source>Menu entry item</source>
-        <translation>Menüeinträge</translation>
+        <translation>Entrée de menu</translation>
     </message>
 </context>
 <context>
     <name>MorkParser</name>
     <message>
         <source>Couldn&apos;t open file: </source>
-        <translation>Die Datei konnte nicht geöffnet werden: </translation>
+        <translation>Impossible d&apos;ouvrir le fichier : </translation>
     </message>
     <message>
         <source>Unsupported version.</source>
-        <translation>Die Version wird nicht unterstützt.</translation>
+        <translation>Version non supportée.</translation>
     </message>
     <message>
         <source>Invalid format.</source>
-        <translation>Ungültiges Format.</translation>
+        <translation>Format invalide.</translation>
     </message>
     <message>
         <source>Parsing error.</source>
-        <translation>Fehler beim Einlesen.</translation>
+        <translation>Erreur d&apos;analyse.</translation>
     </message>
     <message>
         <source>Unexpected EOF.</source>
-        <translation>Unerwartetes Dateiende.</translation>
+        <translation>Fin de fichier inattendue.</translation>
     </message>
     <message>
         <source>Invalid comment.</source>
-        <translation>Ungültiger Kommentar.</translation>
+        <translation>Commentaire invalide.</translation>
     </message>
     <message>
         <source>Format error.</source>
-        <translation>Formatfehler.</translation>
+        <translation>Erreur de format.</translation>
     </message>
     <message>
         <source>Unexpected end of group.</source>
-        <translation>Unerwartetes Gruppenende.</translation>
+        <translation>Fin de groupe inattendue.</translation>
     </message>
 </context>
 <context>
     <name>Settings</name>
     <message>
         <source>Could not save the settings</source>
-        <translation>Die Einstellungen konnten nicht gespeichert werden</translation>
+        <translation>Impossible de sauvegarder les paramètres</translation>
     </message>
     <message>
         <source>Could not save the settings into file %1:
 %2</source>
-        <translation>Die Einstellungen konnten nicht in %1 gespeichert werden:
+        <translation>Impossible de sauvegarder les paramètres dans le fichier %1:
 %2</translation>
     </message>
     <message>
         <source>Sqlite based accounts migrated</source>
-        <translation>Sqlite basierende Konten migriert</translation>
+        <translation>Comptes basés sur sqlite migrés</translation>
     </message>
     <message>
         <source>You had configured monitoring of one or more mail folders using the Sqlite parser. This method has been removed. Your configurations has been migrated to the Mork parser, but some configured mail folders could not be found.</source>
-        <translation>Sie hatten die Überwachung von einem oder mehren Email-Ordnern mit der Sqlite Methode konfiguriert. Diese wurde entfernt. Ihre Konfiguration wurde zur Mork-Methode migriert, allerdings konnten eine paar der konfigurierten Email-Ordner nicht gefunden werden.</translation>
+        <translation>Vous avez configuré la surveillance d&apos;un ou plusieurs réperoires via l&apos;analyseur sqlite. Cette méthode a été supprimée. Vos paramétres ont été migrés vers l&apos;analyseur mork, mais certains répertoires n&apos;ont pas été retrouvés.</translation>
     </message>
     <message>
         <source>You had configured monitoring of one or more mail accounts using the Sqlite parser. This method has been removed. Your configurations has been migrated to the Mork parser. Please verify that all accounts were mapped correctly.</source>
-        <translation>Sie hatten die Überwachung von einem oder mehren Email-Ordnern mit der Sqlite Methode konfiguriert. Diese wurde entfernt. Ihre Konfiguration wurde zur Mork-Methode migriert. Bitte überprüfen Sie, dass alle Ordner richtig übernommen wurden.</translation>
+        <translation>Vous avez configuré la surveillance d&apos;un ou plusieurs réperoires via l&apos;analyseur sqlite. Cette méthode a été supprimée. Vos paramétres ont été migrés vers l&apos;analyseur mork. Veuillez vérifier que tous les comptes ont correctement été migrés.</translation>
     </message>
     <message>
         <source>Cannot load default system tray icon.</source>
-        <translation>Das Standard-Systemleistensymbol konnte nicht geladen werden.</translation>
+        <translation>Impossible de charger l&apos;icône de notification par défaut.</translation>
     </message>
 </context>
 <context>
     <name>TrayIcon</name>
     <message>
         <source>Would you like to set up Birdtray?</source>
-        <translation>Wollen Sie Birdtray einrichten?</translation>
+        <translation>Voulez-vous configurer Birdtray ?</translation>
     </message>
     <message>
         <source>You have not yet configured any email folders to monitor. Would you like to do it now?</source>
-        <translation>Es wurden noch keine E-Mail-Ordner zur Überwachung eingestellt. Wollen Sie das jetzt tun?</translation>
+        <translation>Vous n&apos;avez pas encore confguré de répertoires mail à surveiller. Voulez-vous le faire maintenant ?</translation>
     </message>
     <message>
         <source>Show Thunderbird</source>
-        <translation>Thunderbird anzeigen</translation>
+        <translation>Montrer Thunderbird</translation>
     </message>
     <message>
         <source>Hide Thunderbird</source>
-        <translation>Thunderbird ausblenden</translation>
+        <translation>Cacher Thunderbird</translation>
     </message>
     <message>
         <source>New Email</source>
-        <translation>Neue E-Mail</translation>
+        <translation>Nouveau mail</translation>
     </message>
     <message>
         <source>Blank</source>
-        <translation>Leer</translation>
+        <translation>Vide</translation>
     </message>
     <message>
         <source>New Email Message</source>
-        <translation>Neue E-Mail-Nachricht</translation>
+        <translation>Nouveau mail</translation>
     </message>
     <message>
         <source>5 minutes</source>
-        <translation>5 Minuten</translation>
+        <translation>5 minutes</translation>
     </message>
     <message>
         <source>10 minutes</source>
-        <translation>10 Minuten</translation>
+        <translation>10 minutes</translation>
     </message>
     <message>
         <source>30 minutes</source>
-        <translation>30 Minuten</translation>
+        <translation>30 minutes</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation>1 Stunde</translation>
+        <translation>1 heure</translation>
     </message>
     <message>
         <source>4 hours</source>
-        <translation>4 Stunden</translation>
+        <translation>4 heures</translation>
     </message>
     <message>
         <source>Snooze for ...</source>
-        <translation>Schlummern für …</translation>
+        <translation>Mettre en veille pendant...</translation>
     </message>
     <message>
         <source>Unsnooze</source>
-        <translation>Aufwecken</translation>
+        <translation>Réveiller</translation>
     </message>
     <message>
         <source>Ignore unread emails</source>
-        <translation>Ungelesene E-Mails ignorieren</translation>
+        <translation>Ignorer les mails non lus</translation>
     </message>
     <message>
         <source>Settings...</source>
-        <translation>Einstellungen…</translation>
+        <translation>Paramètres...</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Beenden</translation>
+        <translation>Quitter</translation>
     </message>
     <message>
         <source>Cannot start Thunderbird</source>
-        <translation>Thunderbird kann nicht gestartent werden</translation>
+        <translation>Impossible de démarrer Thunderbird</translation>
     </message>
     <message>
         <source>Error starting Thunderbird, because we could not attach to the updater:
 
 %1</source>
-        <translation>Beim Starten von Thunderbird ist ein Fehler aufgetreten, da wir uns nicht mit dem Aktualisierungsprogramm verbinden konnten:
+        <translation>Erreur au démarrage de Thunderbird, impossible de de lier au moniteur :
 
 %1</translation>
     </message>
     <message>
         <source>Ignore unread emails (now %1)</source>
-        <translation>Ungelesene E-Mails ignorieren (momentan %1)</translation>
+        <translation>Ignorer les mails non lus (%1 actuellement)</translation>
     </message>
     <message>
         <source>Error starting Thunderbird as &apos;%1 %2&apos;:
 
 %3</source>
-        <translation>Beim Starten von Thunderbird als &apos;%1 %2&apos; ist ein Fehler aufgetreten:
+        <translation>&gt;Erreur lors du démarrage de Thunderbird en tant que &apos;%1 %2&apos;:
 
 %3</translation>
     </message>
     <message>
         <source>Warning: %1</source>
-        <translation>Warnung: %1</translation>
+        <translation>Attention : %1</translation>
     </message>
     <message>
         <source>Don&apos;t ask again</source>
-        <translation>Nicht nochmal fragen</translation>
+        <translation>Ne plus demander</translation>
     </message>
 </context>
 <context>
     <name>UnreadMonitor</name>
     <message>
         <source>Unable to watch %1 for changes.</source>
-        <translation>%1 kann nicht auf Änderungen überwacht werden.</translation>
+        <translation>Impossible de surveiller les changements dans %1.</translation>
     </message>
     <message>
         <source>Unable to read from %1.</source>
-        <translation>Von %1 kann nicht gelesen werden.</translation>
+        <translation>Impossible de lire %1.</translation>
     </message>
 </context>
 <context>
     <name>UpdateDialog</name>
     <message>
         <source>Birdtray Update</source>
-        <translation>Birdtray-Aktualisierung</translation>
+        <translation>Mise à jour de Birdtray</translation>
     </message>
     <message>
         <source>Current version:</source>
-        <translation>Momentane Version:</translation>
+        <translation>Version actuelle :</translation>
     </message>
     <message>
         <source>A new version of Birdtray is available.</source>
-        <translation>Eine neue Version von Birdtray ist verfügbar.</translation>
+        <translation>Une nouvelle version de Birtray est disponible.</translation>
     </message>
     <message>
         <source>New version:</source>
-        <translation>Neue Version:</translation>
+        <translation>Nouvelle version :</translation>
     </message>
     <message>
         <source>Download size:</source>
-        <translation>Downloadgröße:</translation>
+        <translation>Taille de téléchargement :</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>Download</translation>
+        <translation>Télécharger</translation>
     </message>
     <message>
         <source>Ignore this version</source>
-        <translation>Diese Version ignorieren</translation>
+        <translation>Ignorer cette version</translation>
     </message>
     <message>
         <source>ca. %1 Mb</source>
@@ -807,34 +806,34 @@ Bitte stellen Sie sicher, dass Sie den richtigen Ordner mit den Profilen ausgew�
     </message>
     <message>
         <source>Update and restart</source>
-        <translation>Aktualisieren und Neustarten</translation>
+        <translation>Mettre à jour et redémarrer</translation>
     </message>
 </context>
 <context>
     <name>UpdateDownloadDialog</name>
     <message>
         <source>Birdtray Update</source>
-        <translation>Birdtray-Aktualisierung</translation>
+        <translation>Mise à jour de Birdtray</translation>
     </message>
     <message>
         <source>Downloading Birdtray update...</source>
-        <translation>Die Birdtray-Aktualisierung wird heruntergeladen…</translation>
+        <translation>Téléchargement de la mise à jour...</translation>
     </message>
     <message>
         <source>Background</source>
-        <translation>Hintergrund</translation>
+        <translation>En arrière-plan</translation>
     </message>
     <message>
         <source>Downloading Birdtray installer...</source>
-        <translation>Die Birdtray-Installationsdatei wird heruntergeladen…</translation>
+        <translation>Téléchargement du programme d&apos;installation...</translation>
     </message>
     <message>
         <source>Download finished. Restart and update Birdtray?</source>
-        <translation>Übertragung abgeschlossen. Soll Birdtray aktualisiert und neugestartet werden?</translation>
+        <translation>Téléchargement terminé. Redémarrer et mettre à jour le binaire ?</translation>
     </message>
     <message>
         <source>Downloading Birdtray installer... (%1 Mb / %2 Mb).</source>
-        <translation>Die Birdtray-Installationsdatei wird heruntergeladen… (%1 Mb / %2 Mb).</translation>
+        <translation>Téléchargement du programme d&apos;installation... (%1 Mb / %2 Mb).</translation>
     </message>
 </context>
 </TS>

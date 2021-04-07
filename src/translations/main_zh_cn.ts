@@ -1,427 +1,480 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AutoUpdater</name>
     <message>
         <source>No ssl configuration!
 OpenSSL might not be installed.</source>
-        <translation>¡SSL no configurado!
-OpenSSL podría no estar instalado.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>未找到SSL配置！
+可能是没有安装OpenSSL。</translation>
     </message>
     <message>
         <source>Failed to save the Birdtray installer:
 </source>
-        <translation>Fallo al salvar el instalador de Birdtray:
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>安装文件写入失败：
 </translation>
     </message>
     <message>
         <source>Failed to download the Birdtray installer:
 </source>
-        <translation>Fallo al descargar el instaladro de Birdtray:
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>安装文件下载失败：
 </translation>
     </message>
     <message>
         <source>Installer download failed</source>
-        <translation>La descarga del instaldor ha fallado</translation>
+        <translation>安装文件下载失败</translation>
     </message>
     <message>
         <source>Update failed</source>
-        <translation>La actualización ha fallado</translation>
+        <translation>更新失败</translation>
     </message>
     <message>
         <source>Failed to start the Birdtray installer.</source>
-        <translation>Fallo al iniciar el instaldor de Birdtray.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>启动Birdtray安装文件失败。</translation>
     </message>
 </context>
 <context>
     <name>BirdtrayApp</name>
     <message>
+        <source>A free system tray notification for new mail for Thunderbird.</source>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>一个提供Thunderbird最小化到系统托盘及新邮件提醒功能的自由软件。</translation>
+    </message>
+    <message>
         <source>Display the contents of the given mork database.</source>
-        <translation>Mostrar el contenido de la base de datos de mork.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>显示指定Mork数据库的内容。</translation>
     </message>
     <message>
         <source>databaseFile</source>
-        <translation>databaseFile</translation>
+        <translation>数据库文件</translation>
     </message>
     <message>
         <source>Decode an IMAP Utf7 string.</source>
-        <translation>Descodificar una cadena Utf7 de IMAP.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>解码UTF7编码的IMAP字符串。</translation>
     </message>
     <message>
         <source>string</source>
-        <translation>cadena</translation>
+        <translation>字符串</translation>
     </message>
     <message>
         <source>Show the settings.</source>
-        <translation>Mostrar las configuraciones.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>显示配置项。</translation>
     </message>
     <message>
         <source>Reset the settings to the defaults.</source>
-        <translation>Reponer las configuraciones por defecto.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>重置为默认设置。</translation>
     </message>
     <message>
         <source>Toggle the Thunderbird window.</source>
-        <translation>Fijar la ventana de Thunderbird.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>显示/隐藏Thunderbird窗口。</translation>
     </message>
     <message>
         <source>Show the Thunderbird window.</source>
-        <translation>Mostrar la ventana de Thunderbird.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>显示Thunderbird窗口。</translation>
     </message>
     <message>
         <source>Hide the Thunderbird window.</source>
-        <translation>Ocultar la ventana de Thunderbird.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>隐藏Thunderbird窗口。</translation>
     </message>
     <message>
         <source>Write log to a file.</source>
-        <translation>Escribir el registro en un fichero.</translation>
-    </message>
-    <message>
-        <source>A free system tray notification for new mail for Thunderbird.</source>
-        <translation>Un sistema libre de notificación para la bandeja el sistema para nuevos correos de Thunderbird.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>将日志写入文件。</translation>
     </message>
     <message>
         <source>file</source>
-        <translation>fichero</translation>
+        <translation>文件</translation>
     </message>
     <message>
         <source>Sorry, the system tray cannot be controlled by this add-on on your operating system.</source>
-        <translation>Lo sentimos, la bandeja del sistema no puede ser controlado a través de este complemento en su sistema operativo.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>抱歉，您的操作系统不支持通过程序控制系统托盘。</translation>
     </message>
 </context>
 <context>
     <name>DialogAddEditNewEmail</name>
     <message>
         <source>&quot;New Email&quot; Entry</source>
-        <translation>Entrada de &quot;Nuevo correo&quot;</translation>
+        <translation>新建发件模板</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation>Nombre:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>名称：</translation>
     </message>
     <message>
         <source>(Optional) Prefilled fields</source>
-        <translation>(Opcional) Campos prellenados</translation>
+        <translation>预设字段（可选）</translation>
     </message>
     <message>
         <source>Email subject:</source>
-        <translation>Asunto del correo:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>邮件主题：</translation>
     </message>
     <message>
         <source>Email message text:</source>
-        <translation>Texto del mensaje del correo:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>邮件正文：</translation>
     </message>
     <message>
         <source>Email recipient:</source>
-        <translation>Dirección del destinatario:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>收件人：</translation>
     </message>
     <message>
         <source>No name specified</source>
-        <translation>Nombre no especificado</translation>
+        <translation>未命名</translation>
     </message>
     <message>
         <source>The name cannot be empty.</source>
-        <translation>El nombre no puede estar vacío.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>模板名称不能为空。</translation>
     </message>
 </context>
 <context>
     <name>DialogLogOutput</name>
     <message>
         <source>Debug log viewer</source>
-        <translation>Visor del registro de depuración</translation>
+        <translation>调试日志</translation>
     </message>
 </context>
 <context>
     <name>DialogSettings</name>
     <message>
         <source>Birdtray Settings</source>
-        <translation>Preferencias de Birdtray</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>General</translation>
+        <translation>常规</translation>
     </message>
     <message>
         <source>New Mail Notification</source>
-        <translation>Notificación de nuevo correo</translation>
+        <translation>新邮件通知</translation>
     </message>
     <message>
         <source>Show unread count</source>
-        <translation>Mostrar contador de no leídos</translation>
+        <translation>显示未读邮件数</translation>
     </message>
     <message>
         <source>Different icon when unread:</source>
-        <translation>Icono diferente para no leídos:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>有未读邮件时使用图标：</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation>Apagado</translation>
+        <translation>禁用</translation>
     </message>
     <message>
         <source>Fastest</source>
-        <translation>Más rápido</translation>
+        <translation>最快</translation>
     </message>
     <message>
         <source>Icon (Ctrl-click to reset):</source>
-        <translation>Icono (Ctrl-pulsar para reiniciar):</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>图标（按住Ctrl点击重置）：</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This notification color will be used when more than one monitored account has unread emails.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;El color de esta notificación será usado cuando más de una cuenta supervisada tenga correos sin leer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当同时存在多个信箱有未读邮件时使用该颜色。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Multiple notification color:</source>
-        <translation>Color de notificación múltiple:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>多信箱未读通知颜色：</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This changes the font thickness, i.e. makes the font bold.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;设置字体的粗细。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Blinking speed:</source>
-        <translation>Velocidad del parpadeo:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>图标闪烁速度：</translation>
     </message>
     <message>
         <source>Font style:</source>
-        <translation>Estilo de la fuente:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>字体：</translation>
     </message>
     <message>
         <source>Bold:</source>
-        <translation>Negrita:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>加粗：</translation>
     </message>
     <message>
         <source>Notification border color:</source>
-        <translation>Color del borde de la notificación:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>通知消息边框颜色：</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Ancho:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>宽度：</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Ninguno</translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Monitoring</source>
-        <translation>Supervisar</translation>
+        <translation>信箱</translation>
     </message>
     <message>
         <source>Accounts to monitor</source>
-        <translation>Cuentas a supervisar</translation>
+        <translation>信箱监听列表</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Añadir</translation>
+        <translation>添加</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editar</translation>
+        <translation>编辑</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Borrar</translation>
+        <translation>移除</translation>
     </message>
     <message>
         <source>Allow ignoring the current unread email counter</source>
-        <translation>Permitir ignorar la actual contador de correos no leídos</translation>
+        <translation>添加“忽略当前未读”上下文菜单</translation>
     </message>
     <message>
         <source>Hiding</source>
-        <translation>Ocultar</translation>
+        <translation>显示</translation>
     </message>
     <message>
         <source>Launching and Hiding</source>
-        <translation>Lanzar y ocultar</translation>
+        <translation>启动与隐藏</translation>
     </message>
     <message>
         <source>Start Thunderbird when Birdtray starts</source>
-        <translation>Iniciar Thunderbird cuando Birdtray inicie</translation>
+        <translation>启动Birdtray时自动启动Thunderbird</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When both Thunderbird and Birdtray are set to start with the operating system, this usually results in two copies of Thunderbird being launched. Here you can add a delay before Thunderbird is launched, to prevent this.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cuando Thunderbird y Birdtray son iniciadas por el sistema operativo, normalmente hace que dos instancias de Thunderbird sean lanzadas. Puedes añadir un retraso antes de que Thunderbird sea lanzado, para prevenirlo.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当同时设置Thunderbird和Birdtray自启动时，可能会同时启动两个Thunderbird实例。您可以为Birdtray启动Thunderbird设置一个延迟时间来避免这点。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source> second delay</source>
-        <translation> segundo retraso</translation>
+        <translation> 秒</translation>
     </message>
     <message>
         <source>with a </source>
-        <translation>con un </translation>
+        <translation>并延迟 </translation>
     </message>
     <message>
         <source>and hide it</source>
-        <translation>y ocultarlo</translation>
+        <translation>启动时隐藏</translation>
     </message>
     <message>
         <source>Terminate Thunderbird when quitting Birdtray</source>
-        <translation>Finalizar Thunderbird cuando salga de Birdtray</translation>
+        <translation>退出Birdtray时结束Thunderbird</translation>
     </message>
     <message>
         <source>Hide/show Thunderbird window when clicking on tray icon</source>
-        <translation>Ocultar/mostrar la ventana de Thunderbird cuando pulse en el icono de la bandeja del sistema</translation>
+        <translation>点击托盘图标时显示/隐藏Thunderbird窗口</translation>
     </message>
     <message>
         <source>Hide Thunderbird window when it is minimized</source>
-        <translation>Ocultar la ventana de Thunderbird cuando esté minimizada</translation>
+        <translation>Thunderbird最小化时自动隐藏</translation>
     </message>
     <message>
         <source>Show red X in tray icon if Thunderbird is not running</source>
-        <translation>Mostrar una X roja en el icono de la bandeja del sistema si Thunderbird no esta en ejecución</translation>
+        <translation>Thunderbird未运行时在托盘图标上显示红色的X符号</translation>
     </message>
     <message>
         <source>Restart Thunderbird if it was closed</source>
-        <translation>Reabrir Thunderbird si ha sido cerrado</translation>
+        <translation>Thunderbird被关闭时自动重启</translation>
     </message>
     <message>
         <source>New Email</source>
-        <translation>Nuevo correo</translation>
+        <translation>发件模板</translation>
     </message>
     <message>
         <source>Enable New Email submenu</source>
-        <translation>Habilitar submenú de nuevo correo</translation>
+        <translation>启用“发件模板”托盘图标菜单</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Avanzado</translation>
+        <translation>高级</translation>
     </message>
     <message>
         <source>Please do not change these settings unless you understand what you&apos;re doing.</source>
-        <translation>Por favor, no cambie estas preferencias a menos que entienda lo que está haciendo.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>修改以下配置前请确保您明白是否真的需要修改它们。</translation>
     </message>
     <message>
         <source>Thunderbird window name pattern:</source>
-        <translation>Modelo de nombre de la ventana de Thunderbird:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>Thunderbird窗口标题模板：</translation>
     </message>
     <message>
         <source>Minimum notification font size:</source>
-        <translation>Tamaño de la fuente de notificación mínimo:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>通知消息字体不小于：</translation>
     </message>
     <message>
         <source> points</source>
-        <translation> puntos</translation>
+        <translation> 像素</translation>
     </message>
     <message>
         <source>When blinking, use the fade-in/fade-out transition (increases CPU use!)</source>
-        <translation>Cuando parpadee, usar transición fundirse/aparecer (¡Incrementa el uso de CPU!)</translation>
+        <translation>图标闪烁时启用淡入淡出动画（会增加CPU消耗）</translation>
     </message>
     <message>
         <source>Make the system tray icon</source>
-        <translation>Mostrar el icono de la bandeja del sistema</translation>
+        <translation>有新邮件时以</translation>
+    </message>
+    <message>
+        <source>Check for new updates when Birdtray starts.</source>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>当Birdtray启动时检查是否有新版本。</translation>
     </message>
     <message>
         <source>Check for new updates on startup</source>
-        <translation>Comprobar actualizaciones en el arranque</translation>
+        <translation>启动时检查更新</translation>
+    </message>
+    <message>
+        <source>Check for a new Birdtray version.</source>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>检测是否有新版本。</translation>
     </message>
     <message>
         <source>Check now</source>
-        <translation>Comprobar ahora</translation>
+        <translation>立即检查</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Acerca de</translation>
+        <translation>关于</translation>
     </message>
     <message>
         <source>Version check failed</source>
-        <translation>La comprobación de la versión ha fallado</translation>
+        <translation>检测失败</translation>
     </message>
     <message>
         <source>Failed to check for a new Birdtray version:
 </source>
-        <translation>Fallo en la comprobación de la nueva versión de Birdtray:
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>检查版本更新失败：
 </translation>
     </message>
     <message>
         <source>Checking...</source>
-        <translation>Comprobando...</translation>
+        <translation>正在检测...</translation>
     </message>
     <message>
         <source>Choose the new icon</source>
-        <translation>Escoger el icono nuevo</translation>
+        <translation>选择图标</translation>
     </message>
     <message>
         <source>Images (*.png *.svg *.svgz)</source>
-        <translation>Imágenes (*.png *.svg *.svgz)</translation>
+        <translation>图像 (*.png *.svg *.svgz)</translation>
     </message>
     <message>
         <source>Invalid icon</source>
-        <translation>Icono no válido</translation>
+        <translation>无效的图标</translation>
     </message>
     <message>
         <source>Could not load the icon from this file.</source>
-        <translation>No se puede cargar el icono de este fichero.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>无法加载图标。</translation>
     </message>
     <message>
         <source>Thunderbird command line:</source>
-        <translation>Linea de comando de Thunderbird:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>Thunderbird启动命令：</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is the full command-line (with arguments) which will be used to start Thunderbird. Arguments are space-separated, but spaces in quotes are allowed, i.e. something like &lt;span style=&quot; font-weight:600;&quot;&gt;&amp;quot;C:\Program Files\tb.exe&amp;quot; --profile test&lt;/span&gt; will work.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Esta es la linea de comando completa (con parámetros) que será usada par iniciar Thunderbird. Los parámetros son separados mediante espacios, pero se permiten espacios entre comillas, como por ejemplo &lt;span style=&quot; font-weight:600;&quot;&gt;&amp;quot;C:\Program Files\tb.exe&amp;quot; --profile test&lt;/span&gt; funcionará.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;启动Thunderbird的完整命令，将以此启动Thunderbird。启动参数以空格分隔，若参数本身包含空格则必须用引号包裹参数。例如：&lt;span style=&quot; font-weight:600;&quot;&gt;&amp;quot;C:\Program Files\tb.exe&amp;quot; --profile test&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Ignore all unread email that are present when Birdtray starts. Only new emails will be taken into account by the unread counter.</source>
-        <translation>Ignorar todos los correos no leidos que estén presentes cuando Birdtray se inice. Solo los nuevos correos seran tenidos en cuenta por el contador de no leídos.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>Birdtray启动时忽略当前的未读邮件，未读计数将仅计算新收到的邮件。</translation>
     </message>
     <message>
         <source>opaque when new mail is present,</source>
-        <translation>opaco cuando haya nuevos correos,</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>的透明度显示图标，</translation>
     </message>
     <message>
         <source>hide it if no new mail is present.</source>
-        <translation>ocultar si no hay nuevos correos.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>没有未读邮件时隐藏托盘图标。</translation>
     </message>
     <message>
         <source>Choose one or more MSF files</source>
-        <translation>Elegir uno o mas ficheros MSF</translation>
+        <translation>选择一个或多个MSF文件：</translation>
     </message>
     <message>
         <source>Mail Index (*.msf)</source>
-        <translation>Indice de Correo (*.msf)</translation>
+        <translation>邮件摘要文件 (*.msf)</translation>
     </message>
     <message>
         <source>No new updates found</source>
-        <translation>No se han encontrado nuevas actualizaciones</translation>
+        <translation>已是最新版本</translation>
     </message>
     <message>
         <source>Show log window</source>
-        <translation>Mostrar la ventana de registro</translation>
+        <translation>查看日志</translation>
     </message>
     <message>
         <source>Force index file re-read every</source>
-        <translation>Forzar la relectura de cada fichero de índices</translation>
+        <translation>强制重载索引文件，每隔</translation>
     </message>
     <message>
         <source> seconds</source>
-        <translation> segundos</translation>
+        <translation> 秒</translation>
     </message>
     <message>
         <source>Translations are powered by the community:</source>
-        <translation>Idiomas soportados por la comunidad:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>翻译工作由社区支持：</translation>
     </message>
     <message>
         <source>Translators</source>
-        <translation>Traductores</translation>
+        <translation>译者</translation>
     </message>
     <message>
         <source>Active maintainers</source>
-        <translation>Mantenedores activos</translation>
+        <translation>活跃贡献者</translation>
     </message>
     <message>
         <source>Contributors</source>
-        <translation>Contribuyentes</translation>
+        <translation>贡献者</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this box is checked, the Birdtray icon will show the number of unread emails.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;If it is unchecked, no count will be shown, and you will only know about unread emails because of the blinking or different icon, depending on your settings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si es seleccionado, el icono de Birdtray mostrará el numero de corresos no leídos.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Si es deseleccionado, ningún contador será mostrado, y sólo se sabrá que existe un mensaje no leído por el parpadeo o el direrente color del icono, dependiendo de su configuración.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select mail folders for watching.&lt;br/&gt;&lt;br/&gt;If the dialog doesn&apos;t show your folder, &lt;i&gt;Ctrl + Shift click&lt;/i&gt; to open a file selection dialog that allows adding any mork file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;如果勾选此项，将在图标上显示未读邮件数。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;如果取消勾选，则您只能通过图标闪烁或不同样式的图标来判断是否有新邮件，这取决于你的配置。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Unread change cmd:</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>未读邮件变化时执行脚本：</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select mail folders for watching.&lt;br/&gt;&lt;br/&gt;If the dialog doesn&apos;t show your folder, &lt;i&gt;Ctrl + Shift click&lt;/i&gt; to open a file selection dialog that allows adding any mork file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;选择要监听的邮件目录。&lt;br/&gt;&lt;br/&gt;如果文件对话框中没有显示你想要的目录，通过&lt;i&gt;Ctrl + Shift click&lt;/i&gt;打开可以选择任意文件的对话框。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Could not load the icon from this file. Try loading the icon in an image editing tool and saving it in a different format.</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>无法加载图标。可尝试将其转换为其他格式再试。</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -443,40 +496,32 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Versión Birdtray [VERSION] compilada en [DATE] (Qt [QT_VERSION]).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Birdtray[VERSION]，编译于[DATE]，使用 Qt [QT_VERSION]。&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Copyright (C) 2018 by George Yunaev, &lt;/span&gt;&lt;a href=&quot;mailto:gyunaev@ulduzsoft.com&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;gyunaev@ulduzsoft.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Birdtray es SORTWARE LIBRE, cuya licencia está bajo General Public License v3. Para mayor aclaración, puede usarlo para cualquier proposito, incluido el comercial, sin pagar nada. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Birdtray是签署在GPLv3（General Public License v3）下的自由软件，您可以以任何目的使用它，包括商业使用，而不需要支付任何代价。&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Para pedir ayuda, solicitar una función o reportar un error, use &lt;/span&gt;&lt;a href=&quot;https://github.com/gyunaev/birdtray&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;página del proyecto de Github &lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;寻求帮助、新功能建议和bug通告请访问&lt;/span&gt;&lt;a href=&quot;https://github.com/gyunaev/birdtray&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;Github项目仓库&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;。&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Para aquellos que aprecian mi trabajo en Birdtray, que ha sido desarrollado en mi tiempo libre, puede hacerlo aquí: &lt;/span&gt;&lt;a href=&quot;https://paypal.me/ulduzsoft&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;https://paypal.me/ulduzsoft&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;birdtray是作者利用空闲时间开发，如果您喜欢这个作品，可以通过通过此链接打赏：&lt;/span&gt;&lt;a href=&quot;https://paypal.me/ulduzsoft&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;https://paypal.me/ulduzsoft&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; text-decoration: underline; color:#2980b9;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;¡Gracias por su apoyo continuo!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This changes the font thickness, i.e. makes the font bold.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cambia el grosor de la fuente, por ejemplo, la hace negrita.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;感谢您的支持！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If not empty, this command will be invoked every time the unread counter changes (including when it becomes zero). It is invoked via shell, as-is, with %NEW% replaced by the new unread count value and %OLD% replaced with the old unread count value (which may be the same as new).&lt;/p&gt;&lt;p&gt;Most users don&apos;t need this functionality and should leave it empty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Check for new updates when Birdtray starts.</source>
-        <translation>Comprobar actualizaciones cuando bridtray se inicie.</translation>
-    </message>
-    <message>
-        <source>Check for a new Birdtray version.</source>
-        <translation>Comprobar si existe una nueva versión de Birdtray.</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;如果非空，当未读计数改变时（包含变为0的情况）将通过shell执行该命令。您可以在命令中使用%NEW%和%OLD%引用新的未读计数和旧的未读计数。&lt;/p&gt;&lt;p&gt;大多数用户不会用到此功能，除非您的确需要，否则请将其留空。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Support non-NETWM compliant WMs</source>
-        <translation type="unfinished"></translation>
+        <translation>支持非NETWM兼容的窗口管理器</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your desktop manager is not fully NETWM compliant, you may need to check this checkbox so it can detect Thunderbird window and is able to minimise and hide it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;如果您的桌面环境不是NETWM兼容的，您可能需要勾选此项我们才能正确探测到Thunderbird，并能够将其最小化和隐藏。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, this option adds the &amp;quot;Ignore currently unread emails&amp;quot; action to the context menu. This action allows you to ignore the emails which are currently unread. Birdtray would then pretend there are no unread emails left, and would only show new emails over the ignored count.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;For example, if there were 10 unread emails, and you clicked on &amp;quot;Ignore&amp;quot; action, Birdtray will show no unread email indicator as long as unread email count remains at 10. Once new email is received and you have 11 total unread emails, Birdtray will show the new email count as 1.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -491,314 +536,334 @@ p, li { white-space: pre-wrap; }
         <source>When showing Thunderbird</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, this option adds the &amp;quot;Ignore currently unread emails&amp;quot; action to the context menu. This action allows you to ignore the emails which are currently unread. Birdtray would then pretend there are no unread emails left, and would only show new emails over the ignored count.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;For example, if there were 10 unread emails, and you clicked on &amp;quot;Ignore&amp;quot; action, Birdtray will show no unread email indicator as long as unread email count remains at 10. Once new email is received and you have 11 total unread emails, Birdtray will show the new email count as 1.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si se habilita, esta opción añade la acción de &amp;quot;Ignorar correos no leíodos actualmente&amp;quot; al menú contextual. Esta acción le permite ignorar los corresos que actualmente son no leídos&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Por ejemplo, si hay 10 correos no leidos, y pulsa en &amp;quot;Ignorar&amp;quot;, Birdtray mostraŕa el indicador de mensajes no leidos mientras el contador de mensajes no leídos permanece en 10. Una vez que un correo nuevo es recibido y tiene 11 correos no leídos totales, Bridtray mostrará el contador de correos nuevos como 1.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
 </context>
 <context>
     <name>Log</name>
     <message>
         <source>Failed to open log file %s: %s</source>
-        <translation>Fallo al abrir el fichero de registro %s: %s</translation>
+        <translation>打开日志文件%s失败：%s</translation>
     </message>
     <message>
         <source>Fatal</source>
-        <translation>Fatal</translation>
+        <translation>错误</translation>
     </message>
     <message>
         <source>Fatal error: %1
 
 Log file is written into file %2</source>
-        <translation>Error fatal: %1
+        <translation>严重错误：%1
 
-El fichero de registro fue escrito en el archivo %2</translation>
+详情查看日志文件%2</translation>
     </message>
 </context>
 <context>
     <name>MailAccountDialog</name>
     <message>
+        <source>Choose the Thunderbird profiles path</source>
+        <translation>选择Thunderbird数据目录</translation>
+    </message>
+    <message>
         <source>No folder selected</source>
-        <translation>Niguna carpeta seleccionada</translation>
+        <translation>未选择目录</translation>
     </message>
     <message>
         <source>No mail folder was selected to monitor.
 Do you want to continue?</source>
-        <translation>Ninguna capeta de correo ha sido seleccionada en el controlador
-¿Quiere continuar?</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>未选择任何要监听的邮件目录。
+是否继续？</translation>
     </message>
     <message>
         <source>Select Accounts</source>
-        <translation>Seccionar cuentas</translation>
+        <translation>选择信箱</translation>
     </message>
     <message>
         <source>Select the directory that contains the Thunderbird profiles.</source>
-        <translation>Seleccionar el directorio que contiene los perfiles de Thunderbird.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>请选择Thunderbird数据目录。</translation>
     </message>
     <message>
         <source>Thunderbird Profiles Directory</source>
-        <translation>Directorio de Perfiles de Thunderbird</translation>
+        <translation>Thunderbird数据目录</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation>Buscar</translation>
+        <translation>浏览</translation>
     </message>
     <message>
         <source>Select the mail accounts you want to monitor.</source>
-        <translation>Seleccione las cuentas de correo que quiere controlar.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>选择您要监听的信箱。</translation>
     </message>
     <message>
         <source>Email Folder</source>
-        <translation>Carpeta de correo</translation>
+        <translation>信箱目录</translation>
     </message>
     <message>
         <source>Notification Color</source>
-        <translation>Color de la notificación</translation>
+        <translation>通知消息颜色</translation>
     </message>
     <message>
         <source>If you monitor multiple folders, the default notification color is used to show the sum of all unread mails.</source>
-        <translation>Si controla multiples carpetas, el color de la notificación por defecto se usará para mostrar la suma de todos los correos no leídos.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>如果您选择了多个目录，将使用默认颜色显示未读邮件总数。</translation>
     </message>
     <message>
         <source>%1 (Profile)</source>
-        <translation>%1 (Perfil)</translation>
+        <translation>%1（Profile）</translation>
     </message>
     <message>
         <source>No mail profiles were found.
 Please make sure you selected the correct profiles directory.</source>
-        <translation>No se han encontrado perfiles de correo
-Por favor, asegúrese que ha seleccionado el directorio de perfiles correcto.</translation>
-    </message>
-    <message>
-        <source>Choose the Thunderbird profiles path</source>
-        <translation>Elegir la ruta de perfiles de Thunderbird</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>未找到Thunderbird配置。
+请检查您选择的Thunderbird数据目录是否正确。</translation>
     </message>
 </context>
 <context>
     <name>ModelAccountTree</name>
     <message>
         <source>Account</source>
-        <translation>Cuenta</translation>
+        <translation>信箱</translation>
     </message>
     <message>
         <source>Notification color</source>
-        <translation>Color de notificación</translation>
+        <translation>通知颜色</translation>
     </message>
 </context>
 <context>
     <name>ModelNewEmails</name>
     <message>
         <source>Menu entry item</source>
-        <translation>Elemento de entrada del menú</translation>
+        <translation>发件模板</translation>
     </message>
 </context>
 <context>
     <name>MorkParser</name>
     <message>
         <source>Couldn&apos;t open file: </source>
-        <translation>No se pudo abrir el fichero: </translation>
+        <translation>无法打开文件: </translation>
     </message>
     <message>
         <source>Unsupported version.</source>
-        <translation>Versión no soportada.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>抱歉，该版本不受支持。</translation>
     </message>
     <message>
         <source>Invalid format.</source>
-        <translation>Formato inválido.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>无效的格式。</translation>
     </message>
     <message>
         <source>Parsing error.</source>
-        <translation>Error analizando.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>匹配出错。</translation>
     </message>
     <message>
         <source>Unexpected EOF.</source>
-        <translation>EOF inesperado.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>未预期的文件结束标志符（EOF）。</translation>
     </message>
     <message>
         <source>Invalid comment.</source>
-        <translation>Comentario invalido.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>无效的注释。</translation>
     </message>
     <message>
         <source>Format error.</source>
-        <translation>Error de formato.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>格式错误。</translation>
     </message>
     <message>
         <source>Unexpected end of group.</source>
-        <translation>Fin de grupo inesperado.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>未预期的end-group。</translation>
     </message>
 </context>
 <context>
     <name>Settings</name>
     <message>
         <source>Could not save the settings</source>
-        <translation>No se pudieron grabar las configuraciones</translation>
+        <translation>无法保存设置</translation>
     </message>
     <message>
         <source>Could not save the settings into file %1:
 %2</source>
-        <translation>No puudo grabarse las configuraciones en el fichero %1:
+        <translation>无法写入配置到文件%1：
 %2</translation>
     </message>
     <message>
         <source>Sqlite based accounts migrated</source>
-        <translation>Cuentas basadas en Sqlite cambiadas</translation>
+        <translation>成功迁移基于sqlite的帐号信息</translation>
     </message>
     <message>
         <source>You had configured monitoring of one or more mail folders using the Sqlite parser. This method has been removed. Your configurations has been migrated to the Mork parser, but some configured mail folders could not be found.</source>
-        <translation>Tenía configurado el control de una o más carpetas de correos usando el analizador de Sqlite. Este método ha sido eliminado. Tus configuraciones han sido cambiadas al analizador Mork, pero algunas carpetas de correo configurada podría no ser encontrada.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>您正在侦听使用Sqlite解析器的信箱，但该解析器已被弃用。已自动使用Mork解析器，但一些已配置的信箱无法找到。</translation>
     </message>
     <message>
         <source>You had configured monitoring of one or more mail accounts using the Sqlite parser. This method has been removed. Your configurations has been migrated to the Mork parser. Please verify that all accounts were mapped correctly.</source>
-        <translation>Tenía configurado el control de una o más carpetas de correos usando el analizador de Sqlite. Este método ha sido eliminado. Por favor, verifique si todas sus cuentas fueron correctamente mapeadas.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>您正在侦听使用Sqlite解析器的邮箱帐号，但该解析器已被弃用。已自动使用Mork解析器，请确认您所有的帐号映射是否正确。</translation>
     </message>
     <message>
         <source>Cannot load default system tray icon.</source>
-        <translation>No se pudo leer el icono de la bandeja del sistema por defecto.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>无法加载系统默认托盘图标。</translation>
     </message>
 </context>
 <context>
     <name>TrayIcon</name>
     <message>
         <source>Would you like to set up Birdtray?</source>
-        <translation>¿Desea configurar Birdtray?</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>您要对Birdtray进行配置吗？</translation>
     </message>
     <message>
         <source>You have not yet configured any email folders to monitor. Would you like to do it now?</source>
-        <translation>No tiene todavía cofigurado ninguna capeta de correo a controlar. ¿Desea hacerlo ahora?</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>您尚未配置任何要监听的信箱，是否现在配置？</translation>
     </message>
     <message>
         <source>Show Thunderbird</source>
-        <translation>Mostrar Thunderbird</translation>
+        <translation>显示Thunderbird</translation>
     </message>
     <message>
         <source>Hide Thunderbird</source>
-        <translation>Ocultar Thunderbird</translation>
+        <translation>隐藏Thunderbird</translation>
     </message>
     <message>
         <source>New Email</source>
-        <translation>Nuevo correo</translation>
+        <translation>发件模板</translation>
     </message>
     <message>
         <source>Blank</source>
-        <translation>Vacio</translation>
+        <translation>空</translation>
     </message>
     <message>
         <source>New Email Message</source>
-        <translation>Nuevo mensaje de correo</translation>
+        <translation>发邮件</translation>
     </message>
     <message>
         <source>5 minutes</source>
-        <translation>5 minutos</translation>
+        <translation>5分钟</translation>
     </message>
     <message>
         <source>10 minutes</source>
-        <translation>10 minutos</translation>
+        <translation>10分钟</translation>
     </message>
     <message>
         <source>30 minutes</source>
-        <translation>30 minutos</translation>
+        <translation>30分钟</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation>1 hora</translation>
+        <translation>1小时</translation>
     </message>
     <message>
         <source>4 hours</source>
-        <translation>4 horas</translation>
+        <translation>4小时</translation>
     </message>
     <message>
         <source>Snooze for ...</source>
-        <translation>Silenciar durante ...</translation>
+        <translation>暂停通知...</translation>
     </message>
     <message>
         <source>Unsnooze</source>
-        <translation>Posponer</translation>
+        <translation>启用通知</translation>
     </message>
     <message>
         <source>Ignore unread emails</source>
-        <translation>Ignorar correos no leídos</translation>
+        <translation>忽略当前未读</translation>
     </message>
     <message>
         <source>Settings...</source>
-        <translation>Ajustes...</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>设置...</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Salir</translation>
+        <translation>退出</translation>
     </message>
     <message>
         <source>Cannot start Thunderbird</source>
-        <translation>No se pudo abrir Thunderbird</translation>
+        <translation>启动Thunderbird失败</translation>
     </message>
     <message>
         <source>Error starting Thunderbird, because we could not attach to the updater:
 
 %1</source>
-        <translation>Erro al iniciar Thunderbird, porque no se pudo adjuntar el actualizador:
+        <translation>启动Thunderbird失败，因为无法附载到更新程序：
 
 %1</translation>
     </message>
     <message>
         <source>Ignore unread emails (now %1)</source>
-        <translation>Ignorar correos no leídos (now %1)</translation>
+        <translation>忽略当前未读（未读：%1）</translation>
     </message>
     <message>
         <source>Error starting Thunderbird as &apos;%1 %2&apos;:
 
 %3</source>
-        <translation>Error iniciando Thunderbird como &apos;%1 %2&apos;:
+        <translation>以‘%1 %2’启动Thunderbird失败：
 
 %3</translation>
     </message>
     <message>
         <source>Warning: %1</source>
-        <translation>Advertencia: %1</translation>
+        <translation>警告：%1</translation>
     </message>
     <message>
         <source>Don&apos;t ask again</source>
-        <translation>No preguntar de nuevo</translation>
+        <translation>不再询问</translation>
     </message>
 </context>
 <context>
     <name>UnreadMonitor</name>
     <message>
         <source>Unable to watch %1 for changes.</source>
-        <translation>Incapaz de mirar %1 para cambios.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>无法监听%1。</translation>
     </message>
     <message>
         <source>Unable to read from %1.</source>
-        <translation>Incapaz de leer desde %1.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>无法读取%1。</translation>
     </message>
 </context>
 <context>
     <name>UpdateDialog</name>
     <message>
         <source>Birdtray Update</source>
-        <translation>Actualización de Birdtray</translation>
+        <translation>更新</translation>
     </message>
     <message>
         <source>Current version:</source>
-        <translation>Versión actual:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>当前版本：</translation>
     </message>
     <message>
         <source>A new version of Birdtray is available.</source>
-        <translation>Nueva versión de Birdtray disponible.</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>有新版本可用。</translation>
     </message>
     <message>
         <source>New version:</source>
-        <translation>Nueva versión:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>新版本：</translation>
     </message>
     <message>
         <source>Download size:</source>
-        <translation>Tamaño de la descarga:</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>下载文件大小：</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>Descargar</translation>
+        <translation>下载</translation>
     </message>
     <message>
         <source>Ignore this version</source>
-        <translation>Ignorar esta versión</translation>
+        <translation>忽略此版本</translation>
     </message>
     <message>
         <source>ca. %1 Mb</source>
@@ -806,34 +871,36 @@ Por favor, asegúrese que ha seleccionado el directorio de perfiles correcto.</t
     </message>
     <message>
         <source>Update and restart</source>
-        <translation>Actualizar y reiniciar</translation>
+        <translation>更新并重启</translation>
     </message>
 </context>
 <context>
     <name>UpdateDownloadDialog</name>
     <message>
         <source>Birdtray Update</source>
-        <translation>Actualización de Birdtray</translation>
+        <translation>更新</translation>
     </message>
     <message>
         <source>Downloading Birdtray update...</source>
-        <translation>Descargando actualización de Birdtray...</translation>
+        <translation>正在下载更新...</translation>
     </message>
     <message>
         <source>Background</source>
-        <translation>Segundo plano</translation>
+        <translation>后台运行</translation>
     </message>
     <message>
         <source>Downloading Birdtray installer...</source>
-        <translation>Descargando instalador de Bridtray...</translation>
+        <translation>正在下载文件...</translation>
     </message>
     <message>
         <source>Download finished. Restart and update Birdtray?</source>
-        <translation>Descarga finalizada. ¿Reiniciar y actualizar Birdtray?</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>下载完成。是否立即重启以应用更新？</translation>
     </message>
     <message>
         <source>Downloading Birdtray installer... (%1 Mb / %2 Mb).</source>
-        <translation>Descargando instalador de Birdtray... (%1 Mb / %2 Mb).</translation>
+        <translatorcomment>checkTranslation ignore: punctuation_end_differ</translatorcomment>
+        <translation>正在下载文件...（%1 Mb / %2 Mb）</translation>
     </message>
 </context>
 </TS>
